@@ -1,0 +1,35 @@
+{
+  "manifest_version": 3,
+  "name": "Console Genius",
+  "version": "1.0",
+  "description": "Fetches solutions from Stack Overflow directly into the developer console.",
+  "host_permissions": [
+    "https://api.stackexchange.com/*"
+  ],
+  "content_scripts": [
+    {
+      "matches": [
+        "<all_urls>"
+      ],
+      "js": [
+        "content.js"
+      ],
+      "run_at": "document_start"
+    }
+  ],
+  "web_accessible_resources": [
+    {
+      "resources": [
+        "injector.js"
+      ],
+      "matches": [
+        "<all_urls>"
+      ]
+    }
+  ],
+  "icons": {
+    "16": "icon-16.jpg",
+    "48": "icon-48.jpg",
+    "128": "icon-128.jpg"
+  }
+}
