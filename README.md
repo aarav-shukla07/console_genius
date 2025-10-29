@@ -76,9 +76,5 @@ This extension is built to be lightweight and effective.
 5. It cleans the HTML and text from the API response.
 
 6. It uses ```console.groupCollapsed()``` to print the beautiful, styled, and collapsed solution (with the gist and source link) right into your console.
---- 
-
-## License
-This project is licensed under the MIT License.
 
 ---
