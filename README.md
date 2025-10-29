@@ -20,7 +20,7 @@ It automatically fetches the top-voted answer and solution "gist" from Stack Ove
 
 Since this extension is not on the Chrome Web Store, you can install it for free in 30 seconds:
 
-1.  **Download:** Go to the [**Releases Page**](https://github.com/YOUR_USERNAME/console-genius/releases) (Replace this link with your repo's releases page) and download the latest `.zip` file.
+1.  **Download:** Go to the [**Releases Page**](https://github.com/aarav-shukla07/console_genius/releases/tag/v1.0) (Replace this link with your repo's releases page) and download the latest `.zip` file.
 2.  **Unzip:** Unzip the file. You will have a folder (e.g., `console-genius-v1.0`).
 3.  **Open Extensions Page:** Open Chrome and navigate to `chrome://extensions`.
 4.  **Enable Developer Mode:** In the top-right corner, turn on the **"Developer mode"** toggle.
